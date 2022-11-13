@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>traffic light details</title>
+    <!--Import CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jsDelivr provides CDN support for Bootstrap's CSS and JavaScript/Latest compiled and minified CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <!--Bootstrap Glyphicon CND-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!--Import the stylesheet of Tailwind CSS to make the responsive-->
+    <link href=https://unpkg.com/tailwindcss@1.0.4/dist/tailwind.min.css rel="stylesheet">
+
+</head>
+<body>
+
+    <!--1. The navigation -
+    <nav class="navbar navbar-expand-lg" id="navigation">
+        --Left side of the navbar/company logo
+        <div class="navbar-brand" id="comlogo">
+            <a href="#"><img src="image/companylogo.jpg"></a> 
+        </div>
+        !--Middle of the navbar/small logo with links--
+        <div class="navbar-menu collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" style="Font-weight:bold">
+                !--navbar logo--
+                <a class="nav-item" href="#">
+                    <img class="home_logo" src="image/smalllogo.jpg" alt="home Logo">
+                </a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About WAHU</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Staff Matters</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link</a></li>
+                    <li><a class="dropdown-item" href="#">Another link</a></li>
+                    <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Divisions</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link</a></li>
+                    <li><a class="dropdown-item" href="#">Another link</a></li>
+                    <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color:green">News</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link</a></li>
+                    <li><a class="dropdown-item" href="#">Another link</a></li>
+                    <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Quick Links</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link</a></li>
+                    <li><a class="dropdown-item" href="#">Another link</a></li>
+                    <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" data-feathr-click-track="true">
+                        <img class="home_logo" src="image/searchlogo.jpg" alt="search Logo" style="max-width: 50px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        !--Right side of the navbar/Currency Converter--
+        <div class="currency-converter" style="background-color:rgb(116, 185, 11)">
+            <p style="font-size:12px">The current rate as of today</p>
+            <p style="font-weight:bold">1 FJD = 0.467058 USD</p>
+        </div>
+        !--The button for toggling--
+        <button  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        class="navbar-toggler" aira-controls="navbarNav"
+        aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div id="nav-border"></div> -->
+
+    <!-- 1. The navigation version 2-->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid mt-5">
+            <div class="navbar-header">
+                <a class="navbar-brand" style="width: 150px" id="logo">LOGO</a>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-target="#myNavbar" id="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                 
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="#"><span class="glyphicon glyphicon-home"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Staff Matters</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Devisions</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color:green">News</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Quick Links</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="converter">
+                <p style="font-size:13px">
+                The current rate as of today
+                </p>
+                <p style="font-weight:bold" font-size="120px">
+                1 FJD = 0.467058 USD
+                </p>
+            </div>
+        </div>
+    </nav>
+    <div id="nav-border"></div> 
+
+
+    <!--2. The Breadcrumb Navigation-->
+
+    <div class="sub-nav">
+        <!--The left side of the Breadcrumb Navigation-->
+        <div class="light-nav">
+            <img src="image/lightlogo.jpg" alt="Light Logo" style="height:32px" width="20px">
+            <p style="font-size:22px;">TRAFFIC LIGHT DETAILS</p>
+        </div>
+        <!--THe right side of the Breadcrumb Navigation-->
+        <div class="breadcrumb">
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/">Traffic Light</a>
+                </li>
+                <li>
+                    <a href="/" style="color:black">Traffic Light Details</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--3. The Images / Texts-->
+    <div class="images-two">
+        <img w-full w-auto src="image/ITsystem.jpeg" alt="IT Logo">
+        <img class="images-two-second" src="image/textlogo.jpg" alt="text Logo">
+    </div>
+    <div class="images-text">
+        <p class="text-title">IT Systems Names</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+
+    <!-- 4. The Footer -->
+    <footer class="footer">
+        <p>© Copyright 2022 BSP Financial Group Limited</p>
+        <p>Terms of Use &nbsp | &nbsp Privacy Statement</p>
+    </footer>
+</body>
+</html>
+
+
