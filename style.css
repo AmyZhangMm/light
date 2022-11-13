@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+/* 1. The navigation bar */
+/*Keep the three parts of the navigation horizontally oriented */
+.container-fluid {
+    margin-bottom: 25px;
+    padding: 0 50px !important;
+    /* There is a default padding: 1.5rem when we using class of container-fluid
+    .As per the sample be given, we should keep the padding of the navigation same with
+    the sub-nav. so I need to setting a overright padding of 50px for left and right sides.*/
+} 
+
+#logo {
+  transform:translateY(-25%);
+}
+
+.icon-bar {
+  background-color:white;
+}
+
+#button {
+  background-color: rgb(116, 185, 11);
+
+}
+
+
+/* Remove the dots */
+nav li {
+  list-style-type: none; 
+}
+
+
+/* adjust the font-size and margin of the nav item lists*/
+nav ul li {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+/* Design of the currency-converter calculator */
+.converter {
+  text-align: justify; /* keep the 2 lines of <p> texts in the left alignment*/
+  color:white; 
+  padding:20px 50px; /* To set the height thru padding*/
+  line-height: 28px;
+  max-width: 300px;
+  background-color: rgb(116, 185, 11);
+}
+
+
+#nav-border {
+  width: 100%;
+  border-bottom: 4px solid rgb(116, 185, 11);
+}
+/* 1. The end of the Navbar*/
+/***************************/
+
+
+
+
+/* 2. Breadcrumb Navigation */
+
+.sub-nav{
+    display: flex;
+    justify-content:space-between;
+    margin:55px 50px 40px 50px; 
+    border-bottom:3px solid rgb(233, 232, 232);
+  
+}
+
+.light-nav {
+    display:flex; 
+    font-weight:bold; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div img {
+    margin-right: 15px;
+}
+
+/* Style the list */
+  .breadcrumb ul{
+    list-style: none;
+  }
+  
+  /* Display list items side by side */
+  .breadcrumb ul li {
+    display: inline;
+    font-weight: bold;
+  }
+  
+  /* Add a greater than sign (>) before/behind each list item */
+  .breadcrumb ul li+li:before {
+    padding: 8px;
+    color: black;
+  }
+  
+  /* Add a color to all links inside the list */
+  .breadcrumb ul li a {
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+  }
+
+  .breadcrumb ul li::before {
+    content: ">";
+    margin-left: 6px;
+   
+  }
+  
+  .breadcrumb ul li:first-child:before {
+    display: none;
+  }
+  /* Add a color on mouse-over 
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+  } */
+
+  /* 2.The end of the Breadcrumb Navigation*/
+  /*****************************************/
+
+
+
+
+  /* 3. The Images / Texts */
+
+  .images-two { 
+    display:flex;
+    width: 70%;
+    margin: auto;
+}
+
+  .images-text {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    line-height: 30px;
+  }
+
+  .images-two-second {
+    width: 35px !important;
+    height:35px !important;
+  }
+  .text-title {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  /* 3. The end of the Images/Texts*/
+  /*********************************/
+
+
+
+  
+  /* 4. Footer */
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:lightgray;
+    padding: 20px 50px 10px 80px;
+    color:gray;
+    font-size: 17px;
+    margin-top: 50px;
+  }
+
+  /* The end of Footer */
+  /*********************/
+
+
+  /* Media Queries*/
+  /* Navigation */
+
+  @media (max-width: 768px) and (min-width:529px) {
+    .navbar-header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #button {
+      width: 45px;
+      margin-left: 10px;
+    }
+  }
+
+  
+  @media (max-width: 528px) {
+    .container-fluid {
+      flex-direction: column;
+    }
+    .navbar-header {
+      display: flex;
+      flex-direction: column;
+      /* There is a default margin right / left of 15px */
+      margin-left: -120px !important;
+      margin-right:0 !important;
+      margin-bottom: 10px;
+    }
+    #button {
+      width: 45px;
+      margin-left: 10px;
+    } 
+
+  }
