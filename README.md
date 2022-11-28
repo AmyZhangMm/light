@@ -58,7 +58,8 @@ https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
 
 The standard navigation format:
  
-![image](https://user-images.githubusercontent.com/102950347/204208518-0c6da830-5200-4d18-9395-22e72bb635ea.png
+![image](https://user-images.githubusercontent.com/102950347/204208819-1846824a-13dc-4c0c-a7c7-c1ab97a124a7.png)
+
 
 
 
