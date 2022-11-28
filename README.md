@@ -19,6 +19,7 @@ Home / Pictures Summer /Italy
 
 
 Bean Crum navigation format:
+<!--
 <div class="breadcrumb">
             <ul>
                 <li>
@@ -31,7 +32,7 @@ Bean Crum navigation format:
                     <a href="/" style="color: black">Traffic Light Details</a>
                 </li>
             </ul>
-</div>
+</div>  -->
 
 
 Other tips:
@@ -66,6 +67,8 @@ https://bootstrapshuffle.com/cn/classes/navbar/navbar-toggler-icon
 https://www.w3schools.com/bootstrap/bootstrap_navbar.asp 
 
 The standard navigation format:
+ 
+ <!--
 
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid / container">
@@ -102,7 +105,7 @@ The standard navigation format:
       </form>
     </div>
   </div>
-</nav>
+</nav>  -->
 
 
 
