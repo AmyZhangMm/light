@@ -19,7 +19,7 @@ Home / Pictures Summer /Italy
 
 
 Bean Crum navigation format:
-<!--
+
 <div class="breadcrumb">
             <ul>
                 <li>
@@ -62,13 +62,15 @@ https://www.cnblogs.com/starof/p/4459991.html
 There are some links I found helpful:
 
 https://getbootstrap.com/docs/5.2/components/navbar/ 
+ 
 https://www.cnblogs.com/zhangbao/p/6593121.html
+ 
 https://bootstrapshuffle.com/cn/classes/navbar/navbar-toggler-icon
+ 
 https://www.w3schools.com/bootstrap/bootstrap_navbar.asp 
 
 The standard navigation format:
  
- <!--
 
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid / container">
@@ -105,7 +107,7 @@ The standard navigation format:
       </form>
     </div>
   </div>
-</nav>  -->
+</nav>  
 
 
 
